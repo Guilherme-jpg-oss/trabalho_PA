@@ -1,0 +1,32 @@
+:root{
+    --dark: #0c0c0c;
+    --white: #fff;
+    --purple: #4C9F38;
+    --gray: #949494;
+    --gray2: #c9c8c8;
+}
+
+body{
+    background-color: var(--gray);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right center;
+    font-family: 'Roboto', sans-serif;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.header, .footer{
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 1rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header{
+    border-radius: 10px 10px 0 0;
+}
